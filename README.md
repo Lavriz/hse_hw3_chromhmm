@@ -77,3 +77,27 @@ H3k4me1|wgEncodeBroadHistoneK562H3k4me1StdAlnRep1.bam
 from google.colab import drive
 drive.mount('/content/gdrive')
 !mv /content/output_data /content/gdrive/MyDrive/HW3_chromhmm
+```
+## Bonus
+```python
+import pandas as pd
+df = pd.read_csv('/content/gdrive/MyDrive/HW3_chromhmm/output_data/K562_10_dense.bed', encoding='utf-8', sep='\t', comment='t', header=None)
+header = ['chrom', 'chromStart', 'chromEnd', 'state', 'zero', 'dot', 'chromStart', 'chromEnd', 'rgb']
+df.columns = header[:len(df.columns)]
+df.loc[df.state == 1, 'state'] = '1_insulator'
+df.loc[df.state == 2, 'state'] = '2_promoter'
+df.loc[df.state == 3, 'state'] = '3_poised_promoter'
+df.loc[df.state == 4, 'state'] = '4_rpr_heterochromatin'
+df.loc[df.state == 5, 'state'] = '5_trx_elongation'
+df.loc[df.state == 6, 'state'] = '6_skip_exons'
+df.loc[df.state == 7, 'state'] = '7_skip_exons'
+df.loc[df.state == 8, 'state'] = '8_trx_elongation'
+df.loc[df.state == 9, 'state'] = '9_promoter'
+df.loc[df.state == 10, 'state'] = '10_promoter'
+df.to_csv('K562_10_new_dense.bed', sep='\t', index=False, header=None)
+```
+
+[K562_10_new_dense.bed](https://drive.google.com/file/d/1y0gBtw_njMd1sZsPvz2JREXyBdebXnYu/view?usp=sharing) with modified state names
+
+<img width="800" alt="Screen Shot 2022-03-25 at 17 02 34" src="https://user-images.githubusercontent.com/55647212/160135682-d5bd0d11-7632-402b-a45a-986921c4cdb8.png">
+
