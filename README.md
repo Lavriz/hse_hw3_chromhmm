@@ -44,10 +44,13 @@ H3k4me1|wgEncodeBroadHistoneK562H3k4me1StdAlnRep1.bam
 
 ### Histone modifications
 <img width="800" alt="Screen Shot 2022-03-25 at 13 03 55" src="https://user-images.githubusercontent.com/55647212/160100198-1061bf63-d103-4756-a8e8-92e2eaf43ee1.png">
+
 ### TP53
 <img width="800" alt="Screen Shot 2022-03-25 at 13 56 03" src="https://user-images.githubusercontent.com/55647212/160116552-e5b666bd-deca-49b1-a959-62bc9a73b812.png">
+
 ### GATA2
 <img width="800" alt="Screen Shot 2022-03-25 at 14 13 35" src="https://user-images.githubusercontent.com/55647212/160116630-d3e926d1-2930-4f6f-8f93-2f92ee8b12c2.png">
+
 ### CD19
 <img width="800" alt="Screen Shot 2022-03-25 at 14 16 55" src="https://user-images.githubusercontent.com/55647212/160116804-57f9f722-dc9c-4c4f-8094-8d96d0412529.png">
 
