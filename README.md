@@ -21,4 +21,8 @@ H3k4me1|wgEncodeBroadHistoneK562H3k4me1StdAlnRep1.bam
 
 ![K562_10_overlap](https://user-images.githubusercontent.com/55647212/160098918-c0903035-a1f3-4960-a126-07a520690eae.png)
 
+![K562_10_RefSeqTES_neighborhood](https://user-images.githubusercontent.com/55647212/160099186-af9ce47a-9bb1-40fa-ab2a-1f8554f70ccc.png)
+
+![K562_10_RefSeqTSS_neighborhood](https://user-images.githubusercontent.com/55647212/160099207-87ae6ce9-aea1-4d79-817f-744fb4d17c52.png)
+
 ![transitions_10](https://user-images.githubusercontent.com/55647212/160098952-d53cd380-d06c-43de-af80-fad11bcffe31.png)
